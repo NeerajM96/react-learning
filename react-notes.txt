@@ -11,6 +11,8 @@ inside root with content passed inside root.render().
 
 -->Cross-origin
 
+-->package.json is a configuration file
+
 
 Q)Why passing passwordGenerator as a dependency in useEffect(from 03passwordGenerator react project)?
 Ans)By including passwordGenerator as a dependency, you're ensuring that the useEffect always uses the latest version of the function, reflecting any changes in its dependencies. This is especially important if passwordGenerator relies on props or state values that may change over time.
